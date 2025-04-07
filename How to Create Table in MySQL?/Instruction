@@ -1,0 +1,23 @@
+Before creating a table, you must first select the schema where you want the table to be created.
+
+For example, if you want to use the shahkuet schema, start with:
+
+
+USE shahkuet;
+After selecting the schema, you can create the table using the following SQL command:
+
+
+CREATE TABLE students (
+    id INT,
+    name VARCHAR(100)
+);
+This command will create a table named students inside the shahkuet schema with two columns:
+
+id: for storing integer values
+
+name: for storing text values up to 100 characters
+
+To view the structure of the created table, use:
+
+
+DESC students;
