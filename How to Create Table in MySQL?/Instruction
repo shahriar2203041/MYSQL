@@ -2,15 +2,10 @@ Before creating a table, you must first select the schema where you want the tab
 
 For example, if you want to use the shahkuet schema, start with:
 
-sql
-Copy
-Edit
 USE shahkuet;
 After selecting the schema, you can create the table using the following SQL command:
 
-sql
-Copy
-Edit
+
 CREATE TABLE students (
     id INT,
     name VARCHAR(100)
@@ -23,7 +18,4 @@ name: for storing text values up to 100 characters
 
 To view the structure of the created table, use:
 
-sql
-Copy
-Edit
 DESC students;
