@@ -1,8 +1,5 @@
 To insert data into the students table inside the selected schema (like shahkuet), use the following SQL command:
 
-sql
-Copy
-Edit
 INSERT INTO students(id, name)
 VALUES
 (34, 'Rabby'),
